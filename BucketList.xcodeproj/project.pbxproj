@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		7C2B1D5A1B1D249E00D67809 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B1D591B1D249E00D67809 /* AppDelegate.swift */; };
-		7C2B1D5C1B1D249E00D67809 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B1D5B1B1D249E00D67809 /* ViewController.swift */; };
+		7C2B1D5C1B1D249E00D67809 /* BucketListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B1D5B1B1D249E00D67809 /* BucketListViewController.swift */; };
 		7C2B1D5F1B1D249E00D67809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C2B1D5D1B1D249E00D67809 /* Main.storyboard */; };
 		7C2B1D611B1D249E00D67809 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C2B1D601B1D249E00D67809 /* Images.xcassets */; };
 		7C2B1D641B1D249E00D67809 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C2B1D621B1D249E00D67809 /* LaunchScreen.xib */; };
 		7C2B1D701B1D249F00D67809 /* BucketListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B1D6F1B1D249F00D67809 /* BucketListTests.swift */; };
+		7C2B1D7A1B1D2A3A00D67809 /* MissionDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B1D791B1D2A3A00D67809 /* MissionDetailsViewController.swift */; };
+		7C2B1D7C1B1D31B800D67809 /* CancelButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B1D7B1B1D31B800D67809 /* CancelButtonDelegate.swift */; };
+		7C2B1D7E1B1D579100D67809 /* MissionDetailsViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B1D7D1B1D579100D67809 /* MissionDetailsViewControllerDelegate.swift */; };
+		7C2B1D801B1D6C5800D67809 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B1D7F1B1D6C5800D67809 /* Task.swift */; };
+		7C2B1D821B1D6C8600D67809 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B1D811B1D6C8600D67809 /* Database.swift */; };
+		7CAEF4981C4881CE0044DC72 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAEF4971C4881CE0044DC72 /* TaskModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +35,19 @@
 		7C2B1D541B1D249E00D67809 /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C2B1D581B1D249E00D67809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C2B1D591B1D249E00D67809 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7C2B1D5B1B1D249E00D67809 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7C2B1D5B1B1D249E00D67809 /* BucketListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListViewController.swift; sourceTree = "<group>"; };
 		7C2B1D5E1B1D249E00D67809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C2B1D601B1D249E00D67809 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7C2B1D631B1D249E00D67809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7C2B1D691B1D249E00D67809 /* BucketListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BucketListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C2B1D6E1B1D249E00D67809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C2B1D6F1B1D249F00D67809 /* BucketListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListTests.swift; sourceTree = "<group>"; };
+		7C2B1D791B1D2A3A00D67809 /* MissionDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionDetailsViewController.swift; sourceTree = "<group>"; };
+		7C2B1D7B1B1D31B800D67809 /* CancelButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelButtonDelegate.swift; sourceTree = "<group>"; };
+		7C2B1D7D1B1D579100D67809 /* MissionDetailsViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionDetailsViewControllerDelegate.swift; sourceTree = "<group>"; };
+		7C2B1D7F1B1D6C5800D67809 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		7C2B1D811B1D6C8600D67809 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		7CAEF4971C4881CE0044DC72 /* TaskModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +90,14 @@
 			isa = PBXGroup;
 			children = (
 				7C2B1D591B1D249E00D67809 /* AppDelegate.swift */,
-				7C2B1D5B1B1D249E00D67809 /* ViewController.swift */,
+				7C2B1D5B1B1D249E00D67809 /* BucketListViewController.swift */,
+				7C2B1D7F1B1D6C5800D67809 /* Task.swift */,
+				7CAEF4971C4881CE0044DC72 /* TaskModel.swift */,
+				7C2B1D811B1D6C8600D67809 /* Database.swift */,
+				7C2B1D7D1B1D579100D67809 /* MissionDetailsViewControllerDelegate.swift */,
+				7C2B1D791B1D2A3A00D67809 /* MissionDetailsViewController.swift */,
 				7C2B1D5D1B1D249E00D67809 /* Main.storyboard */,
+				7C2B1D7B1B1D31B800D67809 /* CancelButtonDelegate.swift */,
 				7C2B1D601B1D249E00D67809 /* Images.xcassets */,
 				7C2B1D621B1D249E00D67809 /* LaunchScreen.xib */,
 				7C2B1D571B1D249E00D67809 /* Supporting Files */,
@@ -156,7 +174,9 @@
 		7C2B1D4C1B1D249E00D67809 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Ketul Patel";
 				TargetAttributes = {
 					7C2B1D531B1D249E00D67809 = {
@@ -212,7 +232,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C2B1D5C1B1D249E00D67809 /* ViewController.swift in Sources */,
+				7C2B1D5C1B1D249E00D67809 /* BucketListViewController.swift in Sources */,
+				7C2B1D7E1B1D579100D67809 /* MissionDetailsViewControllerDelegate.swift in Sources */,
+				7C2B1D7A1B1D2A3A00D67809 /* MissionDetailsViewController.swift in Sources */,
+				7C2B1D7C1B1D31B800D67809 /* CancelButtonDelegate.swift in Sources */,
+				7C2B1D801B1D6C5800D67809 /* Task.swift in Sources */,
+				7C2B1D821B1D6C8600D67809 /* Database.swift in Sources */,
+				7CAEF4981C4881CE0044DC72 /* TaskModel.swift in Sources */,
 				7C2B1D5A1B1D249E00D67809 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +302,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -344,6 +371,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BucketList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ketul-Patel.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -354,6 +382,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BucketList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ketul-Patel.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -372,6 +401,7 @@
 				);
 				INFOPLIST_FILE = BucketListTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ketul-Patel.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BucketList.app/BucketList";
 			};
@@ -387,6 +417,7 @@
 				);
 				INFOPLIST_FILE = BucketListTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ketul-Patel.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BucketList.app/BucketList";
 			};
@@ -411,6 +442,7 @@
 				7C2B1D751B1D249F00D67809 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C2B1D761B1D249F00D67809 /* Build configuration list for PBXNativeTarget "BucketListTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +451,7 @@
 				7C2B1D781B1D249F00D67809 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
